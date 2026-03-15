@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+table{  
+    width: 100%;
+}
+
+td{
+    width: 5%;
+    height: 8vh;
+}
+
+td:empty{
+    border: none;
+    background-color: transparent;
+}
+
+p{
+    text-align: left;
+}
+
+h2{
+    font-size: 20px;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 15px;
+}
+
+h3{
+    text-align: center;
+    font-size: 10px;
+}
+
+.naoMetais{
+    border: solid;
+    background-color: rgb(168, 255, 168);
+}
+.GasesNobres{
+    border: solid;
+    background-color: aqua;
+}
+.MetaisAlcalinos{ 
+    border: solid;
+    background-color: blue;
+}
+.MetaisAlcalinoTerrosos{
+    border: solid;
+    background-color: blueviolet;
+}
+.Semimetais{
+    border: solid;
+    background-color: rgb(220, 236, 74);
+}
+.Halogênios{
+    border: solid;
+    background-color: rgb(135, 157, 255);
+}
+.OutrosMetais{
+    border: solid;
+    background-color: rgb(245, 119, 151);
+}
+.MetaisDeTransição{
+    border: solid;
+    background-color: rgb(182, 0, 61);
+}
+.Lantanídeos{
+    border: solid;
+    background-color: rgb(8, 83, 83);
+}
+.Actinídios{
+    border: solid;
+    background-color: rgb(53, 208, 247);
+}
+.legenda{
+display:flex;
+flex-wrap:wrap;
+gap:15px;
+margin-top:20px;
+}
+
+.item{
+display:flex;
+align-items:center;
+gap:5px;
+}
+
+.cor{
+width:20px;
+height:20px;
+border:1px solid black;
+}
+.NãoMetais{
+background-color: rgb(168,255,168);
+}
+
+.GasesNobres{
+background-color: rgb(153,217,234);
+}
+
+.MetaisAlcalinos{
+background-color: rgb(0,102,255);
+}
+
+.MetaisAlcalinoTerrosos{
+background-color: rgb(153,153,255);
+}
+
+.MetaisDeTransição{
+background-color: rgb(182,0,61);
+}
+
+.Lantanideos{
+background-color: rgb(8,83,83);
+}
+
+.Actinídeos{
+background-color: rgb(53,208,247);
